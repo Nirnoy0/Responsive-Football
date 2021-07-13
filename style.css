@@ -1,0 +1,46 @@
+/* Fonts */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+</style>
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Top-pages */
+section{
+    width:1440px;
+    height: 677px;
+    background-color: lightskyblue;
+}
+.top-page-title{
+    color: #FFFFFF;
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 198px;
+    font-size: 64px;
+}
+.live-link{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;;
+    text-decoration: none;
+    position: absolute;
+    width: 100px;
+    left: 156px;
+    top: 475px;
+    padding: 10px 24px;
+    }
+.top-banner{
+    width: 556px;
+    height: 434px;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+.top-banner:hover {
+    transition: width 5s, height 5s;
+    width: 700px;
+    height: 600px;
+}
