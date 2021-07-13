@@ -7,18 +7,19 @@ body{
 }
 
 /* Top-pages */
-section{
-    width:1440px;
-    height: 677px;
-    background-color: lightskyblue;
+.first-section{
+    width: 100%;
+    height: 640px;
+    background-color: darkblue;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
 }
 .top-page-title{
     color: #FFFFFF;
     position: absolute;
-    width: 485px;
-    height: 230px;
     left: 156px;
-    top: 198px;
+    top: 190px;
     font-size: 64px;
 }
 .live-link{
@@ -33,14 +34,46 @@ section{
     padding: 10px 24px;
     }
 .top-banner{
-    width: 556px;
+    width: 500px;
     height: 434px;
     position: absolute;
     top: 150px;
-    left: 750px;
+    left: 650px;
 }
 .top-banner:hover {
     transition: width 5s, height 5s;
-    width: 700px;
-    height: 600px;
+    width: 600px;
+    height: 500px;
+}
+
+/* players details */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.players-details{
+    width: 330px;
+    height: 474px;
+    display: flexbox;
+    padding: 0px;
+    margin-left: 15%;
+    box-shadow: 0px 1px 2px ;
+    
+}
+div img{
+    width: 300px;
+    height: 265px;
+    margin: 15px;
+}
+.players-name{
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.players-article{
+    font-size: 16px;
+    margin-left: 10px;
+    color: #6C6C6C;
+    text-align: start;  
 }
