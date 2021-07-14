@@ -53,16 +53,17 @@ body{
     grid-template-columns: repeat(3, 1fr);
     width: 50%;
     margin-left: 5%;
+    margin-bottom: 200px;
 }
 .players-details{
     width: 330px;
     height: 474px;
     margin-left: 10px;
     padding: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     box-shadow: 0px 0px 40px rgba(56, 27, 27, 0.15);
 }
-div img{
+.image{
     width: 300px;
     height: 265px;
     margin: 15px;
@@ -76,4 +77,76 @@ div img{
     font-size: 16px;
     margin-left: 15px;
     color: #6C6C6C;
+}
+
+/* article */
+
+.article{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.article-details{
+    position: absolute;
+    width: 469px;
+    height: 309px;
+    left: 150px;
+    top: 2948px;
+    
+}
+.article-title{
+    font-size: 48px;
+    font-weight: 700;
+}
+.paragraph{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+.live-link-2{
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    position: absolute;
+    top: 250px;
+    left: 5px;
+    padding: 0px 10px;
+}
+.poster{
+    position: absolute;
+    width: 567px;
+    height: 427px;
+    left: 650px;
+    top: 2650px;
+}
+
+/* footer-section */
+
+footer{
+    position: absolute;
+    width: 50%;
+    height: 213px;
+    left: 350px;
+    top: 3200px;
+
+}
+.footer-logo{
+    width: 480px;
+    height: 110px;
+}
+ul, i{
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-left: 55px;
+}
+footer pre{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 260px;
+
 }
